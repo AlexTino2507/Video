@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF8">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <link rel="stylesheet" href="./css/style.css"> 
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+     
+  <!--   <link rel="stylesheet" href="./css/video_analogo.css">-->
+ <!-- <link rel="stylesheet" href="./css/video_digital.css"> -->
+<!-- <link rel="stylesheet" href="./css/normalize.css"> -->
+    <title>Web Estatica</title>
+
+
+
+<script type="text/javascript">
+  function mostrarInicio() {
+    document.getElementById('inicio').style.display = 'block';
+    document.getElementById('analogo').style.display = 'none';
+    document.getElementById('digital').style.display = 'none';
+    document.getElementById('digitalizacion').style.display = 'none';
+    document.getElementById('contacto').style.display = 'none';
+    document.getElementById('menu').style.display = 'none';
+  }
+
+  function mostrarAnalogo() {
+    document.getElementById('inicio').style.display = 'none';
+    document.getElementById('analogo').style.display = 'block';
+    document.getElementById('digital').style.display = 'none';
+    document.getElementById('digitalizacion').style.display = 'none';
+    document.getElementById('contacto').style.display = 'none';
+    document.getElementById('menu').style.display = 'block';
+
+  }
+  
+  function mostrarDigital() {
+    document.getElementById('inicio').style.display = 'none';
+    document.getElementById('analogo').style.display = 'none';
+    document.getElementById('digital').style.display = 'block';
+    document.getElementById('digitalizacion').style.display = 'none';
+    document.getElementById('contacto').style.display = 'none';
+    document.getElementById('menu').style.display = 'block';
+  }
+  
+  function mostrarDigitalizacion() {
+    document.getElementById('inicio').style.display = 'none';
+    document.getElementById('analogo').style.display = 'none';
+    document.getElementById('digital').style.display = 'none';
+    document.getElementById('digitalizacion').style.display = 'block';
+    document.getElementById('contacto').style.display = 'none';
+    document.getElementById('menu').style.display = 'block';
+  }
+  
+  function mostrarContacto() {
+    document.getElementById('inicio').style.display = 'none';
+    document.getElementById('analogo').style.display = 'none';
+    document.getElementById('digital').style.display = 'none';
+    document.getElementById('digitalizacion').style.display = 'none';
+    document.getElementById('contacto').style.display = 'block';
+    document.getElementById('menu').style.display = 'block';
+  }
+</script>    
+   
+</head>
+<body>
+  
+    <header id="conteiner-header-id">
+
+        <div id="columna_logo">
+            <img src="./logo/Audiovisualex.png" title="logo" width="500px">
+        </div>
+       
+
+        <!-- <div id="columna_menu" style="display: none;">  -->
+           <div id="menu"style="display: none;">  
+            <ul>
+              <li><a href="javascript:void(0);" onclick="mostrarInicio();">INICIO</a></li>
+              <li><a href="javascript:void(0);" onclick="mostrarAnalogo();">VIDEO ANÁLOGO</a></li>
+              <li><a href="javascript:void(0);" onclick="mostrarDigital();">VIDEO DIGITAL</a></li>
+              <li><a href="javascript:void(0);" onclick="mostrarDigitalizacion();">DIGITALIZACIÓN</a></li>
+              <li><a href="javascript:void(0);" onclick="mostrarContacto();">CONTACTO</a></li>  
+            </ul>
+          <!--  </div> -->
+        </div>
+   
+    </header>
+       
+
+    <main>
+   
+<!--    SECCION INICIO    --> 
+        <section id="inicio" style="display: block;">
+
+              <div id="titulo_inicio">
+                  <h1>EL VIDEO</h1>
+              </div>
+            
+              <div class="container_inicio">
+                    <div id="texto_inicio">
+                      <p>
+                          Desde el siglo XX hasta la actualidad, los documentos audiovisuales (las películas, los programas de radio y televisión y las grabaciones de audio y vídeo) se han convertido en elementos imprescindible para conocer la analogo. Forman parte de nuestra identidad cultural y gracias a ellos podemos analizar la sociedad y la cultura popular de cada época. Además, gracias a los documentos audiovisuales se eliminaron las barreras que impedían la comunicación; su llegada significó una metamorfosis de la sociedad y de la forma de relacionarnos. Además, gracias a los documentos audiovisuales se eliminaron las barreras que impedían la comunicación; su llegada significó una metamorfosis de la sociedad y de la forma de relacionarnos.
+                          En 2005, la UNESCO proclamó el 27 de octubre como Día Mundial del Patrimonio Audiovisual, esta fecha fue escogida para conmemorar la aprobación de la Recomendación sobre la Salvaguardia y la Conservación de las Imágenes en Movimiento, aprobada en 1980. El objetivo fue concienciar al público sobre la necesidad de tomar medidas urgentes y reconocer la importancia de este tipo de documentos. 
+                      </p>
+                    </div>   
+                    
+                    <div class="columna_menu_aux"> 
+                      <div class="menu_aux">
+                        <ul>
+                           <li><a href="javascript:void(0);" onclick="mostrarInicio();">INICIO</a></li>
+                           <li><a href="javascript:void(0);" onclick="mostrarAnalogo();">VIDEO ANÁLOGO</a></li>
+                           <li><a href="javascript:void(0);" onclick="mostrarDigital();">VIDEO DIGITAL</a></li>
+                           <li><a href="javascript:void(0);" onclick="mostrarDigitalizacion();">DIGITALIZACIÓN</a></li>
+                           <li><a href="javascript:void(0);" onclick="mostrarContacto();">CONTACTO</a></li>  
+                        </ul>
+                      </div>
+                    </div> 
+
+              </div>
+              
+              
+              <!-- <div id="container_menu_aux"></div>  -->
+        </section>   
+
+ <!--    FIN SECCION INICIO    --> 
+
+
+ <!--    SECCION VIDEO ANALOGO    --> 
+    
+    <section id="analogo" style="display: none;">
+
+               <div id="titulo_analogo">
+                   <h1>Video Análogo</h1>
+               </div>
+
+               <div class="container_analogo">
+                 
+                    <div id="texto_analogo">
+                          <p>
+                              Desde el siglo XX hasta la actualidad, los documentos audiovisuales (las películas, los programas de radio y televisión y las grabaciones de audio y vídeo) se han convertido en elementos imprescindible para conocer la analogo. Forman parte de nuestra identidad cultural y gracias a ellos podemos analizar la sociedad y la cultura popular de cada época. Además, gracias a los documentos audiovisuales se eliminaron las barreras que impedían la comunicación; su llegada significó una metamorfosis de la sociedad y de la forma de relacionarnos. Además, gracias a los documentos audiovisuales se eliminaron las barreras que impedían la comunicación; su llegada significó una metamorfosis de la sociedad y de la forma de relacionarnos.
+                              En 2005, la UNESCO proclamó el 27 de octubre como Día Mundial del Patrimonio Audiovisual, esta fecha fue escogida para conmemorar la aprobación de la Recomendación sobre la Salvaguardia y la Conservación de las Imágenes en Movimiento, aprobada en 1980. El objetivo fue concienciar al público sobre la necesidad de tomar medidas urgentes y reconocer la importancia de este tipo de documentos.
+                          </p>
+                    </div>
+
+                    <!--  eslider analogo -->
+
+                    <div class="container1">
+                      
+                          <ul class="slider_analogo">
+                              <li id="slide_a1">
+                                <img src="./analogo/analogo 1.jpeg"/>
+                              </li>
+                              <li id="slide_a2">
+                                <img src="./analogo/analogo 2.jpeg"/>
+                              </li>
+                              <li id="slide_a3">
+                                <img src="./analogo/analogo 3.jpeg"/>
+                              </li>
+                              <li id="slide_a4">
+                                <img src="./analogo/analogo 4.jpeg"/>
+                              </li>
+                              <li id="slide_a5">
+                                <img src="./analogo/analogo 5.jpeg"/>
+                              </li>
+                              <li id="slide_a6">
+                                <img src="./analogo/analogo 6.jpeg"/>
+                              </li>
+                          </ul>
+                          
+                          <ul class="menu1">
+                              <li>
+                                <a href="#slide_a1">1</a>
+                              </li>
+                              <li>
+                                <a href="#slide_a2">2</a>
+                              </li>
+                              <li>
+                                <a href="#slide_a3">3</a>
+                              </li>
+                              <li>
+                                <a href="#slide_a4">4</a>
+                              </li>
+                              <li>
+                                <a href="#slide_a5">5</a>
+                              </li>
+                              <li>
+                                <a href="#slide_a6">6</a>
+                              </li>
+                          </ul>
+                    </div>
+                    <!--  fin slider analogo  -->
+
+                  
+                </div>
+
+    </section>
+
+    <!--    FIN SECCION VIDEO ANALOGO    --> 
+
+
+    <!--    SECCION VIDEO DIGTAL    --> 
+
+    <section id="digital" style="display: none;">
+
+                <div id="titulo_digital">
+                  <h1>Video Digital</h1>
+                </div>
+               
+                <div class="container_digital">
+
+                      <div id="texto_digital">
+                        <p>
+                            El video digital es una representación de imágenes en movimiento en la forma de datos digitales codificados.
+                            Comercialmente, el video digital fue introducido en 1986 y destinado a los estudios de televisión mediante el formato propietario D1 de Sony mediante el cual era grabada en forma digital una señal video por componentes, de definición estándar, sin compresión. Los formatos de video digital de la actualidad abarcan desde los formatos sin compresión hasta los formatos de video comprimidos populares como H.264 y MPEG-4. Los estándares de interconexión para video digital incluyen HDMI, DisplayPort, Interfaz Visual Digital (DVI) e Interfaz Digital Serial (SDI).
+                            El video digital puede ser copiado sin degradar su calidad, puede ser almacenado en cinta magnética y en medios ópticos, como los discos DVD y Blu-Ray, en medios informáticos o difundido a usuarios finales mediante transmisión por flujos de video (streaming) a través de Internet para ser visualizado en computadores o televisores inteligentes. 
+                      </p>
+                    </div>
+                    <!--  eslider digital -->
+
+                      <div class="container2">
+                        
+                            <ul class="slider_digital">
+                                <li id="slide_d1">
+                                  <img src="./digital/Digital 1.jpeg"/>
+                                </li>
+                                <li id="slide_d2">
+                                  <img src="./digital/Digital 2.jpeg"/>
+                                </li>
+                                <li id="slide_d3">
+                                  <img src="./digital/Digital 3.jpeg"/>
+                                </li>
+                                <li id="slide_d4">
+                                  <img src="./digital/Digital 4.png"/>
+                                </li>
+                            </ul>
+                            
+                            <ul class="menu2">
+                                <li>
+                                  <a href="#slide_d1">1</a>
+                                </li>
+                                <li>
+                                  <a href="#slide_d2">2</a>
+                                </li>
+                                <li>
+                                  <a href="#slide_d3">3</a>
+                                </li>
+                                <li>
+                                  <a href="#slide_d4">4</a>
+                                </li>
+                            </ul>
+                     </div>
+
+                    <!--  fin slider digital  -->
+
+                  </div>
+ 
+      </section>
+
+<!--    FIN SECCION VIDEO DIGTAL    --> 
+
+
+<!--    SECCION DIGTALIZACION    --> 
+
+    <section id="digitalizacion" style="display: none;">
+
+                <div id="titulo_digital">
+                    <h1>Digitalización</h1>
+                </div>
+
+                <div class="container_digitalizacion">
+
+                      <div id="texto_digitalizacion">
+                          <p>
+                              La digitalización es el proceso mediante el cual, partiendo de una señal analógica u optical, como es cualquiera de las imágenes que percibimos en el mundo real, obtenemos una representación de la misma en formato digital (señal digital). Debido al desgaste que sufren las cintas tales como Super 8, 9.5 mm, 16 mm y 35 mm, este proceso ha tomado mucho auge en la actualidad, incluso desarrollándose compañías especializadas en ello.... La digitalización de una imagen se basa en una división del espacio a modo de cuadrícula, donde la unidad más pequeña se denomina píxel. Para cada uno de los píxeles que tenemos en una imagen hay que guardar la información referente a la luminancia (brillo o niveles de gris) y, si es en color, también al nivel de cada una de las componentes, V(verde), A(azul) y N(negro). Por tanto, vemos que para una imagen tendremos varias matrices de información. 
+                          </p>
+                      </div>
+
+                        <!--  eslider Digitalizacion -->
+
+                        <div class="container3">
+                          
+                              <ul class="slider_digitalizacion">
+                                  <li id="slide_dg1">
+                                    <img src="./digitalizacion/digitalizacion 1.jpeg"/>
+                                  </li>
+                                  <li id="slide_dg2">
+                                    <img src="./digitalizacion/digitalizacion 2.jpeg"/>
+                                  </li>
+                                  <li id="slide_dg3">
+                                    <img src="./digitalizacion/digitalizacion 3.jpeg"/>
+                                  </li>
+                                  <li id="slide_dg4">
+                                    <img src="./digitalizacion/digitalizacion 4.jpeg"/>
+                                  </li>
+                                  <li id="slide_dg5">
+                                    <img src="./digitalizacion/digitalizacion 5.jpeg"/>
+                                  </li>
+                                  <li id="slide_dg6">
+                                    <video src="./video/Convertidor Vídeos.mp4"type="video/mp4" controls width="auto"></video> 
+                                  
+                                  </li>
+                              </ul>
+                              
+                              <ul class="menu3">
+                                  <li>
+                                    <a href="#slide_dg1">1</a>
+                                  </li>
+                                  <li>
+                                    <a href="#slide_dg2">2</a>
+                                  </li>
+                                  <li>
+                                    <a href="#slide_dg3">3</a>
+                                  </li>
+                                  <li>
+                                    <a href="#slide_dg4">4</a>
+                                  </li>
+                                  <li>
+                                    <a href="#slide_dg5">5</a>
+                                  </li>
+                                  <li>
+                                    <a href="#slide_dg6">6</a>
+                                  </li>
+                              </ul>
+                            
+                        </div>
+
+                      <!--   fin slider Digitalizacion -->
+                 </div>
+    </section>
+
+<!--    FIN SECCION DIGTALIZACION    --> 
+
+
+<!--    SECCION CONTACTO    --> 
+
+      <section id="contacto" style="display: none;">
+
+              <div id="titulo_final">
+                    <h1>Contactos y redes</h1>
+              </div>
+
+                  <div class="container_contacto_red">
+
+                        <div class="columna_contacto">
+                              <h2>Contactenos</h2>
+                              <h3>
+                                Envíenos sus comentarios
+                              </h3>
+                              <form action="contac">
+                                  <label for="Asunto">Asunto</label>
+                                  <br>
+                                  <input type="text" id="Asunto" name="Asunto">
+                                  <br>
+                                  <br>
+                                  <label for="Correo">Correo Electónico</label>
+                                  <br>
+                                  <input type="text" id="Correo" name="Correo">
+                                  <br><br>
+                                  <label for="Nombre">Comentario</label>
+                                  <br>
+                                  <textarea name="textarea" placeholder="Ingrese su comentario" cols="20"></textarea>
+                                  <br>
+                                  <br>
+                                  <button type="submit">Enviar</button> 
+                              </form>
+                        </div>
+
+                        <div class="columna_redes">
+                                <h2>
+                                    Redes Sociales
+                                </h2>
+                                <h3>
+                                    Siguenos en
+                                </h3>
+                                <form action="red">
+                                    <div id="logo_redes">
+                                      <img src="./logo/Logo Facebook.png" alt="" width="60">
+                                      <img src="./logo/Logo Twtter.png" alt="" width="90">
+                                      <img src="./logo/Logo Instagram.png" alt="" width="100">
+                                    </div>
+                                </form>
+                        </div>
+
+                  </div>
+
+      </section>
+
+<!--    FIN SECCION CONTACTO    --> 
+
+
+    </main>
+
+
+    <footer>
+        Programador: Alexander Tinoco Rivera <br>
+        Universidad Nacional Abierta y a Distancia <br>
+        UNAD 2021
+    </footer>
+</body>
+</html>
